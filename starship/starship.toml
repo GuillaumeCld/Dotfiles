@@ -1,1 +1,37 @@
-/home/guillaume/.config/starship.toml
+format = """
+$directory\
+$git_branch\
+$cmd_duration\
+$character\
+"""
+
+[directory]
+read_only = " "
+
+[directory.substitutions]
+#"Documents" =  "Documents  "
+#"Downloads" = "Downloads  "
+#"Music" = "Music  "
+#"Pictures" = "Pictures  "
+
+[cmd_duration]
+min_time = 500
+
+[git_branch]
+
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[package]
+symbol = " "
+
+[python]
+symbol = " "
+
