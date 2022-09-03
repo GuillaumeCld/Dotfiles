@@ -1,0 +1,1 @@
+/home/guillaume/.doom.d/packages.el
