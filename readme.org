@@ -33,8 +33,10 @@ I use *Alacritty* as terminal emulator and *Starship* as customizable prompt.
 #+CAPTION: figure name
 #+ATTR_ORG: :width 800
 #+ATTR_HTML: :width 800
-[[file:.Pictures/glances.png
-]]
+[[file:.Pictures/glances.png]]
+
+[[file:~/Pictures/Screenshots/glances.png]]
+
 *** Bat a better cat
 
 [[https://github.com/sharkdp/bat][Bat]] is basically cat with syntax highlighting.
