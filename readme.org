@@ -9,8 +9,6 @@
 * Shell
 I use *Alacritty* as terminal emulator and *Starship* as customizable prompt.
 
-#+NAME: fig:figure name
-#+CAPTION: figure name
 #+ATTR_ORG: :width 800
 #+ATTR_HTML: :width 800
 [[file:.Pictures/shell.png]]
@@ -29,20 +27,28 @@ I use *Alacritty* as terminal emulator and *Starship* as customizable prompt.
 
 [[https://nicolargo.github.io/glances/][Glances]] is a cross-platform system monitoring tool written in Python.
 
-#+NAME: fig:figure name
-#+CAPTION: figure name
 #+ATTR_ORG: :width 800
 #+ATTR_HTML: :width 800
 [[file:.Pictures/glances.png]]
-
-[[file:~/Pictures/Screenshots/glances.png]]
 
 *** Bat a better cat
 
 [[https://github.com/sharkdp/bat][Bat]] is basically cat with syntax highlighting.
 
-#+NAME: fig:figure name
-#+CAPTION: figure name
 #+ATTR_ORG: :width 800
 #+ATTR_HTML: :width 800
 [[file:.Pictures/bat.png]]
+
+*** Zoxide a smarter cd command
+
+[[https://github.com/ajeetdsouza/zoxide][Zoxide]] is a cd command that remembers the most frequently used directories.
+
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+
+
+
+
+
+
+[[file:.Pictures/zoxide.png]]
