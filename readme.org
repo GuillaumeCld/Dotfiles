@@ -2,9 +2,27 @@
 #+author: Guillaume Coulaud
 
 * Emacs
+** Dooom Emacs
+
+The [[file:emacs/doom/packages.el]] allows the installation of the necessary packages and [[file:emacs/doom/config.el]] is the configuration file. It is necessary to run ~doom sync~ to perform the installation and apply the configuration.
 
 ** Taking notes workflow
 
+I use Zotero to create a bibliography and download the papers, with emacs I can associate org note to a pdf. The details of the emacs workflow is detailled [[https://rgoswami.me/posts/org-note-workflow/][here]]. I am not totally satisfied with it and will try to modify it when I have more time (organize notes by fields and projects instead of using only one bibliography).
+I access the bibliography with helm-bibtex.
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+[[file:.Pictures/helmbibtex.png]]
+
+With org-noter I can open the pdf, I can open the pdf associated to a note.
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+[[file:.Pictures/orgnoter.png]]
+
+With deft I can browse the notes.
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+[[file:.Pictures/deft.png]]
 
 * Shell
 I use *Alacritty* as terminal emulator and *Starship* as customizable prompt.
@@ -45,10 +63,5 @@ I use *Alacritty* as terminal emulator and *Starship* as customizable prompt.
 
 #+ATTR_ORG: :width 800
 #+ATTR_HTML: :width 800
-
-
-
-
-
 
 [[file:.Pictures/zoxide.png]]
