@@ -1,6 +1,7 @@
 format = """
 $directory\
 $git_branch\
+$package\
 $cmd_duration\
 $character\
 """
@@ -12,12 +13,32 @@ read_only = " "
 #"Documents" =  "Documents  "
 #"Downloads" = "Downloads  "
 #"Music" = "Music  "
-#"Pictures" = "Pictures  "
+##"Pictures" = "Pictures  "
+
+
+[character]
+
 
 [cmd_duration]
 min_time = 500
+show_milliseconds = false
+disabled = true
+format = " 🕙 $duration($style) "
+style = "bold italic #87A752"
+
+
+[sudo]
+style = "bold green"
+symbol = "👩‍💻 "
+disabled = false
 
 [git_branch]
+
+
+
+
+
+
 
 
 [java]

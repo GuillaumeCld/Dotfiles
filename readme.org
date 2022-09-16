@@ -1,0 +1,47 @@
+#+title: My dotfiles
+#+author: Guillaume Coulaud
+
+* Emacs
+
+** Taking notes workflow
+
+
+* Shell
+I use *Alacritty* as terminal emulator and *Starship* as customizable prompt.
+
+#+NAME: fig:figure name
+#+CAPTION: figure name
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+[[~/Pictures/Screenshots/shell.png
+]]
+
+** Alacritty
+
+[[https://github.com/alacritty/][Alacritty]] is a simple, GPU-accelerated terminal emulator written in Rust. I only  changed the font and its size but further modifications can be made such as key mapping, opacity, colors.
+
+** Starship
+
+[[https://starship.rs/][Starship]] is a customizable prompt for any shell. It is written in Rust and needs a [[https://www.nerdfonts.com/][Nerd Font]] installed and enabled.
+
+** Tools
+
+*** Glances
+
+[[https://nicolargo.github.io/glances/][Glances]] is a cross-platform system monitoring tool written in Python.
+
+#+NAME: fig:figure name
+#+CAPTION: figure name
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+[[~/Pictures/Screenshots/glances.png]]
+
+*** Bat a better cat
+
+[[https://github.com/sharkdp/bat][Bat]] is basically cat with syntax highlighting.
+
+#+NAME: fig:figure name
+#+CAPTION: figure name
+#+ATTR_ORG: :width 800
+#+ATTR_HTML: :width 800
+[[~/Pictures/Screenshots/bat.png]]
