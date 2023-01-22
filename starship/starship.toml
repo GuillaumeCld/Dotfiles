@@ -1,5 +1,6 @@
 format = """
 $directory\
+$conda\
 $git_branch\
 $package\
 $cmd_duration\
@@ -34,6 +35,8 @@ disabled = false
 
 [git_branch]
 
+[conda]
+format = "[$environment](dimmed green) "
 
 
 

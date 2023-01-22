@@ -79,3 +79,10 @@
 (package! org-babel-eval-in-repl)
 (package! org-re-reveal-ref)
 (package! org-gcal)
+
+;; Latex
+(package! auctex)
+;; gnuplot
+(package! gnuplot)
+(package! gnuplot-mode)
+

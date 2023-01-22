@@ -7,7 +7,7 @@
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
 (setq user-full-name "Guillaume Coulaud"
-      user-mail-address "guillaume.coulaud33@orange.fr")
+      user-mail-address "coulaud@proton.me")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
@@ -258,3 +258,13 @@
       "o p" #'paste-from-clipboard)
 
 (setq org-image-actual-width nil)
+
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((gnuplot . t)))
+
+
+(use-package! org-noter
+  :after org
+  :config (setq org-noter-notes-search-path '("~/org")))
