@@ -1,0 +1,30 @@
+I use [[https://www.orgroam.com/][org-roam]] to manage my notes.
+
+I can create (spc r n) several types of notes.
+
+[[../.Pictures/nodes_create.png]]
+
+They can be specified in the [[./config.el][setup file]] in the org-roam part, where I can detail the notes filename, save location and header.
+
+
+I use [[https://www.orgroam.com/][Zotero]] to manage my bibliography and to generate a .bibtex which can be then used in emacs with [[https://github.com/tmalsburg/helm-bibtex][helm-bibtex]] (M-x helm-bibtex).
+[[../.Pictures/helmbibtex.png]]
+
+With helm-bibtex I can create and attach notes to each paper. These notes are also managed with org-roam.
+Again in  the setup file I can specify the header of the file.
+[[../.Pictures/nodes_paper_header.png]]
+
+
+
+With org-roam I can search (spc n r f) through my notes either by note name, type (@) or file tags (#).
+[[../.Pictures/nodes_search.png]]
+
+A note can be inserted (spc n r i) into another note. (spc n r s ) to sync the database.
+
+
+With [[https://github.com/org-roam/org-roam-ui][org-roam-ui]] I can visualize the graph of my notes.
+[[../.Pictures/nodes_graph.png]]
+
+
+Finally with [[https://ox-hugo.scripter.co/][ox-hugo]] I can create a website like in [[https://braindump.jethro.dev/]].
+I created a [[./Makefile][makefile]] to make using ox-hugo with my framework more confortable.
