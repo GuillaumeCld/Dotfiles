@@ -8,13 +8,13 @@ The [[file:emacs/packages.el]] allows the installation of the necessary packages
 
 ** Taking notes workflow
 
-I use Zotero to create a bibliography and download the papers, with emacs I can associate org note to a pdf.
+I use Zotero to create a bibliography and download the papers, with emacs I can associate an org note to a pdf.
 I access the bibliography with helm-bibtex.
 #+ATTR_ORG: :width 800
 #+ATTR_HTML: :width 800
 [[file:.Pictures/helmbibtex.png]]
 
-I use org-roam to take, store and access notes
+I use org-roam to take, store, and access notes. More details in [[/emacs/readme.org]]
 
 
 * Shell
